@@ -67,7 +67,7 @@ p {
 
 .profile-image {
   max-width: 100%;
-  border-radius: 50%;
+  border-radius: 50px;
   margin-top: 10px;
 }
 
