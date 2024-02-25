@@ -143,3 +143,16 @@ p {
   color: #3498db;
 }
 
+/* Add this at the end of your existing CSS */
+
+.footer-section a img {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+}
+
+.footer-section a:last-child img {
+  margin-right: 0; /* Remove margin for the last image in each section */
+}
+
+
