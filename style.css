@@ -84,41 +84,62 @@ p {
 }
 /* Add this at the end of your existing CSS */
 
-footer {
-  background-color: #333;
-  color: #fff;
-  text-align: center;
-  padding: 20px;
- 
-  bottom: 0;
-  width: 100%;
+/* Add this at the end of your existing CSS */
+
+.main-footer {
+  background-color: #2c3e50;
+  color: #ecf0f1;
+  padding: 30px 0;
 }
 
 .footer-content {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
-  max-width: 800px;
+  justify-content: space-around;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  max-width: 1200px;
   margin: 0 auto;
 }
 
-.footer-info {
-  text-align: left;
+.footer-section {
+  margin-bottom: 20px;
 }
 
-.social-links {
-  text-align: right;
-}
-
-.social-icon {
-  margin-left: 10px;
-}
-
-footer a {
+.footer-section h2, .footer-section h3 {
   color: #fff;
-  text-decoration: underline;
 }
 
-footer a:hover {
-  color: #bbb;
+.footer-section ul {
+  list-style: none;
+  padding: 0;
 }
+
+.footer-section ul li {
+  margin-bottom: 10px;
+}
+
+.footer-section a {
+  color: #ecf0f1;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.footer-section a:hover {
+  color: #3498db;
+}
+
+.footer-bottom {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.footer-bottom a {
+  color: #ecf0f1;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.footer-bottom a:hover {
+  color: #3498db;
+}
+
