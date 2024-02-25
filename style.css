@@ -63,3 +63,22 @@ p {
     width: 100%;
   }
 }
+/* Add this at the end of your existing CSS */
+
+.profile-image {
+  max-width: 100%;
+  border-radius: 50%;
+  margin-top: 10px;
+}
+
+@media (max-width: 768px) {
+  .tabs {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  button {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+}
