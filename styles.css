@@ -89,3 +89,25 @@ p {
         width: 100%;
     }
 }
+/* ... (previous CSS code) ... */
+
+.skills {
+    margin-top: 20px;
+}
+
+.skills h2 {
+    margin-bottom: 10px;
+}
+
+.skills ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.skills li {
+    margin-bottom: 5px;
+    color: #333; /* Adjust color for better readability */
+}
+
+/* ... (remaining CSS code) ... */
+
