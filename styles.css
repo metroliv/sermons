@@ -1,0 +1,91 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #f0f0f0;
+}
+
+.profile-card {
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+    width: 90%; /* Adjust as needed */
+    max-width: 400px; /* Set a maximum width for larger screens */
+    text-align: center;
+}
+
+.profile-picture {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.profile-info {
+    padding: 20px;
+}
+
+h1 {
+    margin: 0;
+    color: #333;
+}
+
+p {
+    margin: 10px 0;
+    color: #666;
+    text-align: justify;
+}
+
+.skills {
+    margin-top: 20px;
+}
+
+.skills h2 {
+    margin-bottom: 10px;
+}
+
+.skills ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.skills li {
+    margin-bottom: 5px;
+}
+
+/* ... (previous CSS code) ... */
+
+.connect-button {
+    display: block;
+    width: 80%;
+    max-width: 300px;
+    margin: 20px auto;
+    padding: 10px;
+    background-color: #3498db;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.connect-button:hover {
+    background-color: #2980b9;
+}
+
+/* ... (remaining CSS code) ... */
+
+
+/* Media Query for smaller screens */
+@media (max-width: 600px) {
+    .profile-info {
+        padding: 15px;
+    }
+
+    .connect-button {
+        width: 100%;
+    }
+}
